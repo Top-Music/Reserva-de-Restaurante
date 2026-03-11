@@ -1,0 +1,39 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Importamos la fuente Poppins desde Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: 'Poppins', sans-serif; /* fuente global */
+  background-color: #E5E7E9;          /* color de fondo global */
+}
+
+/* Logo centrado y con dimensiones fijas */
+.logo {
+  width: 125px;
+  height: 125px;
+  display: block;
+  margin: 0 auto;   /* centra horizontalmente */
+}
+
+/* Estilos globales para todos los íconos */
+.icon {
+  background-color: rgba(52, 152, 219, 0.2); /* #3498DB al 20% */
+  border: none;             /* sin borde */
+  border-radius: 40px;      /* círculo */
+  display: block;
+  box-sizing: border-box;
+  /* quitar padding para evitar doble marco */
+}
+
+
